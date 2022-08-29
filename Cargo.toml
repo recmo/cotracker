@@ -1,0 +1,12 @@
+[package]
+name = "cotracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btleplug = "0.10.0"
+bytes = "1.2.1"
+color-eyre = "0.6.2"
+futures = "0.3.23"
+tokio = { version = "1.20.1", features = ["full"] }
+uuid = "1.1.2"
